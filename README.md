@@ -18,7 +18,7 @@ note: rbt and flexarray need to be modified for string values, and include an im
 
 Step 3: Create a hTable object in main
 
-Step 3: Append return container / or c->contents as a parameter to the hTable. Use (-i) to print related statistics
+Step 4: Append return container / or c->contents as a parameter to the hTable. Use (-i) to print related statistics
 based on hashing algorithm. Hashing key is just value of the string % (mod) size of the table.
 
-Step 4: Patch commands to do the related stuff in main.
+Step 5: Patch commands to do the related stuff in main.
